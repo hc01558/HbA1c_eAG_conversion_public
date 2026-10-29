@@ -39,7 +39,11 @@ Download link: https://github.com/hc01558/HbA1c_eAG_conversion_public/releases
 ## Quick start
 ```python
 # Run this to create a virtual environment to contain this project (not mandatory)
-python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
+# Windows:
+python -m venv .venv && .\.venv\Scripts\Activate.ps1
+
+# Linux/macOS
+python -m venv .venv && source .venv/bin/activate
 
 # Run this to install required dependencies
 pip install pandas numpy scipy matplotlib cmcrameri
