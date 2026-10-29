@@ -3,7 +3,6 @@
 - It currently generates glycated haemoglobin (NGSP HbA1c in %) inputs which are a measure of blood sugar, converts them to estimated average glucose (eAG in mg/dL) using Nathan et al.'s (2008) variance model, and quantifies prediction uncertainty with t-distributed samples and 90 % prediction intervals.
 - Components can also be used to generate and convert to/from other blood glucose values, but do note that doing so will require more edits than simply changing to one of the other conversion formulae provided.
 - It is in a modular structure to improve reusability.
-- Download the code file zip entitled 'Source code (zip)' and two .csv data files from here: https://github.com/hc01558/HbA1c_eAG_conversion_public/releases
 
 Author: Hugh Claridge<br>
 Start date: January 2025<br>
@@ -13,6 +12,12 @@ Version history: Public version of the code for the HbA1c to eAG conversion manu
 
 Reference:<br>
 Nathan et al. (2008): http://dx.doi.org/10.2337/dc08-0545
+
+## Download 
+You can clone this project, or use the below download link to obtain the source code zip.<br>
+If you want to reproduce the plots as in the manuscript, you will also need to download the main simulation dataset and misclassification analysis dataset.<br>
+Remember to save these data files into the extracted project folder, leaving the file names intact.<br>
+Download link: https://github.com/hc01558/HbA1c_eAG_conversion_public/releases
 
 ## Glossary
 - eAG: Estimated Average Glucose
