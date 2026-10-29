@@ -1,5 +1,5 @@
 ## Quantifying prediction uncertainty and categorical misclassification risk in regression-based biomedical measurement conversions: an HbA1c to eAG case study
-- This Python project produces the data files and plots for the published manuscript
+- This Python project produces the data files and plots for the published manuscript - you will need to have Python installed.
 - It currently generates glycated haemoglobin (NGSP HbA1c in %) inputs which are a measure of blood sugar, converts them to estimated average glucose (eAG in mg/dL) using Nathan et al.'s (2008) variance model, and quantifies prediction uncertainty with t-distributed samples and 90 % prediction intervals.
 - Components can also be used to generate and convert to/from other blood glucose values, but do note that doing so will require more edits than simply changing to one of the other conversion formulae provided.
 - It is in a modular structure to improve reusability.
@@ -38,13 +38,6 @@ Download link: https://github.com/hc01558/HbA1c_eAG_conversion_public/releases
 
 ## Quick start
 ```python
-# Run this to create a virtual environment to contain this project (not mandatory)
-# Windows:
-python -m venv .venv && .\.venv\Scripts\Activate.ps1
-
-# Linux/macOS
-python -m venv .venv && source .venv/bin/activate
-
 # Run this to install required dependencies
 pip install pandas numpy scipy matplotlib cmcrameri
 
