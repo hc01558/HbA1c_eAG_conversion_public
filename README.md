@@ -34,7 +34,7 @@ Download link: https://github.com/hc01558/HbA1c_eAG_conversion_public/releases
 - `analysis_misclassification_likelihood.py` — Per-bin misclassification analysis (in the same or a different diabetes category as the point estimate)
 - `plot_violins_Figure_1.py` - Figure 1
 - `plot_stepped_line_Figure_2_upper_panel.py` - Figure 2 upper panel
-- `python plot_stepped_line_Figure_2_lower_panel.py` - Figure 2 lower panel
+- `plot_stepped_line_Figure_2_lower_panel.py` - Figure 2 lower panel
 
 ## Quick start
 ```python
