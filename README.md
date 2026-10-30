@@ -7,7 +7,7 @@
 Author: Hugh Claridge<br>
 Start date: January 2025<br>
 Last edited date: 29th October 2026<br>
-Version: v1.0<br>
+Version: v1.0.4<br>
 Version history: Public version of the code for the HbA1c to eAG conversion manuscript
 
 Reference:<br>
